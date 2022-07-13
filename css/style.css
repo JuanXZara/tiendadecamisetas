@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+html{
+    font-size: 62.5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* selectores de etiqueta */
+h1{
+    color:crimson;
+    font-size: 6rem;
+    font-variant-caps: all-petite-caps;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* nav */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 2.5rem;
+    font-variant-caps: all-petite-caps;
+    justify-content: space-between;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.nav__link{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.nav__link::after{
+    content: '';
+    position: absolute;
+    left: 0;bottom: 0;
+    width: 100%;height: 2px;
+    background-color:black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.nav__link:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.container {
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+.logo {
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+/* searchbar */
+
+  .searchbar {
+    margin: 20px 0x;
+    background: #fff;
+    height: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
+  }
+  .searchbar:hover .input {
+    width: 200px;
+  }
+  .searchbar .input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+  }
+  
+  .searchbar .lupa .fas {
+    color: #aa00ff;
+  }
+  
+
+/* fin nav */
+
+/* selectores de clase */
+
+.text_center¨{
+    text-align: center;
+}
+
+.headline{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    background-color: black;
+    font-weight: 300;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+    margin: 0px;
+}
+
+/* selectores de id */
+#nosotros{
+   color: aqua;
+    /* propiedades 1 vez por html */
+}
+
+/* footer */
+.footer_logo {
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    padding-inline: 0%;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+/* iconos redes sociales */
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    border-radius: 50%;
+    outline: 2px solid black;
+    transition-property:
+        outline-offset, outline-color,
+        background-color;
+    transition-duration: .25s;
+    margin-inline: 3px;
+}
+
+.icon:hover {
+    outline-offset: 3px;
+}
+
+.icon--instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%,
+            #fdf497 0%, #fdf497 5%,
+            #fd5949 45%, #d6249f 60%,
+            #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+/*  fin iconos redes sociales */
+
+/* tarjetas camisetas */
+.cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    position: relative;
+    margin: 1rem;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-image {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .card-title {
+    position: relative;
+    padding: 20px 25px 5px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    font-variant-caps: all-petite-caps;
+  }
+ 
+  .card:hover .card-title:before {
+    opacity: 0.8;
+    transform: scale(0.6);
+  }
+  .card-description {
+    padding: 5px 25px 20px;
+    font-size: 1.6rem;
+  }
+
+  /* tarjetas camisetas */
+
+
+
+  /* contacto */ 
+.preguntas{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.preguntas-indiv{
+    margin: 10px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 50px;
+}
+
+.form-group{
+    margin-bottom: 1.5em;
+}
+
+.form-label{
+    font-size: 1.5em;
+    color: crimson;
+    display: block;
+    opacity: 1;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #c2c2c2;
+    border-style: none none solid none;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.form-control::placeholder{
+    color: #aaa;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: crimson;
+    outline: none;
+}
+
+.btn{
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: crimson;
+    font-size: 1em;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    border-color: crimson;
+    color: #aaa;
+}
+
+textarea{
+    resize: none;
+}
+
+.bgcontacto{
+    background-color: #c2c2c2;
+}
+
+/* contacto */ 
+
+.encabezado{
+    width: 100%;
+}
+
+/* grid para carrito */
+
+.resumen{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 50% 30%;
+    grid-template-areas: 
+    "productos detalles"
+    "productos tarjeta"
+    "productos total";
+}
+
+#productos{
+    grid-area: productos;
+    display: flex;
+    justify-content: center;
+}
+
+#detalles{
+    grid-area: detalles;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    padding: 3%;
+}
+
+#tarjeta{
+    grid-area: tarjeta;
+    width: 50%;
+    padding: 3%;
+}
+
+#total{
+    grid-area: total;
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 3%;
+}
+
+/* grid para index */
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "head head"
+    "header header"
+    "fotos camisetas"
+    "footer footer"
+    ;
+}
+
+#head{
+    grid-area: head;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-variant-caps: all-petite-caps;
+    justify-content: space-between;
+}
+
+#header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#camisetas{
+    grid-area: camisetas;
+    margin: 1rem;
+}
+
+#fotos{
+    grid-area: fotos;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+#footer{
+    grid-area: footer;
+    margin: 1rem;
+}
+
+
+@media (max-width: 768px){
+
+
+    /* media para carrito */
+    .resumen{
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 60% 20% 20%;
+        grid-template-areas: 
+        "productos productos"
+        "tarjeta tarjeta"
+        "detalles total"
+        ;
+    }
+
+
+    .headline{
+        font-size: 1.5rem;
+    }
+ 
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-variant-caps: all-petite-caps;
+    }
+
+    .footer_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto;
+        padding-inline: 0%;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    /* media para index */
+
+    .grid{
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-areas: 
+        "head head"
+        "header header"
+        "camisetas camisetas"
+        "fotos fotos"
+        "footer footer"
+        ;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+}
+
+
