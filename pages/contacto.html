@@ -102,47 +102,51 @@
           </nav>
     </header>
     <main class="bgcontacto">
-        <article class="text_center">
+        <div class="row">
             <h1>Preguntas frecuentes y Contacto</h1>
-            <h2>Preguntas que todos tenemos</h2>
-            <div class="preguntas">
-                <p class="preguntas-indiv">¿Qué métodos de pago se aceptan?</p>
-                <p>Podrás pagar con tu tarjeta bancaria Visa, MasterCard y American Express. </p>
-                <p>Si pagas directamente con Visa, MasterCard o AMEX podrás pagar hasta 6 cuotas sin asumir el interés bancario.</p>
-            </div>
-        </article>
-        <h2 class="text_center">Contacto</h2>
-        <section><!--formulario-->
-                <div class="formulario">
-                    <form action="form.php" class="form">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Correo Electronico</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" required>                           
-                        </div>
-                        <div class="form-group">
-                            <label for="subjet" class="form-label">Tema de la consulta</label>
-                            <input type="text" class="form-control" id="subjet" name="subjet" placeholder="Pagos o Envío" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="mensaje" class="form-label">Deje su mensaje aquí</label>
-                            <textarea class="form-control" name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Deje su mensaje aquí"></textarea>
-                        </div>
-                        <div>
-                            <button class="btn" type="submit">Enviar Mensaje</button>
-                        </div>
-                    </form>
+            <article class="text_center col-sm-12 col-md-6">
+                <h2>Preguntas que todos tenemos</h2>
+                <div class="preguntas">
+                    <p class="preguntas-indiv">¿Qué métodos de pago se aceptan?</p>
+                    <p>Podrás pagar con tu tarjeta bancaria Visa, MasterCard y American Express. </p>
+                    <p>Si pagas directamente con Visa, MasterCard o AMEX podrás pagar hasta 6 cuotas sin asumir el interés bancario.</p>
                 </div>
-        </section><!--fin formulario-->
+            </article>
+            <div class="col-sm-12 col-md-6">
+                <h2 class="text_center">Contacto</h2>
+                <section><!--formulario-->
+                    <div class="formulario">
+                        <form action="form.php" class="form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Correo Electronico</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" required>                           
+                            </div>
+                            <div class="form-group">
+                                <label for="subjet" class="form-label">Tema de la consulta</label>
+                                <input type="text" class="form-control" id="subjet" name="subjet" placeholder="Pagos o Envío" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje" class="form-label">Deje su mensaje aquí</label>
+                                <textarea class="form-control" name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Deje su mensaje aquí"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit">Enviar Mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </section><!--fin formulario-->
+            </div>
+        </div>    
     </main>
     <!-- Fin intro, logo y nav-->
     <!-- Inicio footer -->    
     <footer>
         <div class="footer_logo">
-            <div class="icons">
+            <div class="icons" style="--bs-link-hover-color: #212529;">
                 <a href="https://instagram.com" target="_blank" class="icon icon--instagram">
                   <i class="ri-instagram-line"></i>
                 </a>

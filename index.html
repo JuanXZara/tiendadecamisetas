@@ -13,7 +13,7 @@
 <body>
     <h3 class="headline">El Store definitivo de Camisetas de Fútbol</h3>
     <!-- intro, logo y nav-->
-<div class="grid">    
+<div class="gridc">    
     <nav class="navbar navbar-expand-md" id="head">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><svg class="logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -101,7 +101,27 @@
         </div>
       </nav>
     <header id="header">
-            <img src="images/camargentina.jpg" alt="Camiseta Argentina Copa America">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/cambarcelona.jpg" class="d-block w-100" alt="Camiseta Italia">
+              </div>
+              <div class="carousel-item">
+                <img src="images/camargentina.jpg" class="d-block w-100" alt="Camiseta Francia">
+              </div>
+              <div class="carousel-item">
+                <img src="images/campsg.jpg" class="d-block w-100" alt="Camiseta Argentina Copa America">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
     <main id="camisetas">
         <h1>Las más buscadas</h1>
