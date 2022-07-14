@@ -361,6 +361,7 @@ textarea{
     grid-area: header;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
  
 #camisetas{
