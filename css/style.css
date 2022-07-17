@@ -432,7 +432,7 @@ textarea{
 
     /* media para index */
 
-    .grid{
+    .gridc{
         display: grid;
         grid-template-columns: 2;
         grid-template-areas: 
