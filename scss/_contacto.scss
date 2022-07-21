@@ -1,0 +1,67 @@
+.preguntas{
+    text-align: center;
+    font-size: $textL;
+    margin: 20px 0px;
+}
+
+.preguntas-indiv{
+    margin: 10px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 50px;
+}
+
+.form-group{
+    margin-bottom: 1.5em;
+}
+
+.form-label{
+    font-size: $textM;
+    color: $mainColor;
+    display: block;
+    opacity: 1;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-color: $gray;
+    border-style: none none solid none;
+    width: $w-100;
+    font-family: $fontMain;
+    font-size: $textM;
+    &::placeholder{
+        color: $gray;
+    }
+    &:focus{
+        box-shadow: none;
+        border-color: $mainColor;
+        outline: none;
+    }
+}
+
+.btn{
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: $mainColor;
+    font-size: $textS;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    &:hover{
+        border-color: $mainColor;
+        color: $mainColor;
+    }
+}
+
+textarea{
+    resize: none;
+}
+
+.bgcontacto{
+    background-color: $gray;
+}
