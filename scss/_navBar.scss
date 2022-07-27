@@ -57,23 +57,24 @@
     cursor: pointer;
     transition: 0.8s;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
+      &:hover {
+        input{
+          width: 200px;
+        }
+      }
+      input {
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 0px;
+        font-weight: $tRegular;
+        font-size: $textS;
+        transition: 0.8s;
+      }
+      lupa{
+        fas{
+          color: $mainColor;
+        }
+      }
   }
 
-  .searchbar:hover .input {
-    width: 200px;
-  }
-
-  .searchbar .input {
-    background: transparent;
-    border: none;
-    outline: none;
-    width: 0px;
-    font-weight: $tRegular;
-    font-size: $textS;
-    transition: 0.8s;
-  }
-  
-  .searchbar .lupa .fas {
-    color: #aa00ff;
-  }
-  

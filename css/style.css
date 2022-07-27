@@ -70,12 +70,10 @@ html {
   transition: 0.8s;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
 }
-
-.searchbar:hover .input {
+.searchbar:hover input {
   width: 200px;
 }
-
-.searchbar .input {
+.searchbar input {
   background: transparent;
   border: none;
   outline: none;
@@ -84,9 +82,8 @@ html {
   font-size: 1rem;
   transition: 0.8s;
 }
-
-.searchbar .lupa .fas {
-  color: #aa00ff;
+.searchbar lupa fas {
+  color: rgb(220, 20, 60);
 }
 
 * {
@@ -269,8 +266,7 @@ h2 {
   font-weight: 500;
   font-variant-caps: all-petite-caps;
 }
-
-.card:hover .card-title:before {
+.card-title:hover card-title:before {
   opacity: 0.8;
   transform: scale(0.6);
 }
