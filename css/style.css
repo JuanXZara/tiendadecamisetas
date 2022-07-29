@@ -83,7 +83,7 @@ html {
   transition: 0.8s;
 }
 .searchbar lupa fas {
-  color: rgb(220, 20, 60);
+  color: #dc143c;
 }
 
 * {
@@ -93,7 +93,7 @@ html {
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
-  color: rgb(220, 20, 60);
+  color: #dc143c;
   font-size: 6rem;
   font-variant-caps: all-petite-caps;
   font-weight: 700;
@@ -182,7 +182,7 @@ h2 {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin: 1rem;
+  margin: 0rem;
 }
 
 #footer {
@@ -191,6 +191,11 @@ h2 {
 }
 
 /* fin grid para index */
+.imgindex {
+  height: 100%;
+  margin: 0px;
+}
+
 /* grid para carrito */
 .resumen {
   display: grid;
@@ -235,21 +240,19 @@ h2 {
   padding: 3%;
 }
 
-@media (max-width: 768px) {
-  .carousel-inner {
-    width: 170%;
+.imgcarousel {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .imgcarousel {
+    height: 80px;
   }
 }
 
 .error {
-  display: flex;
-  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
   width: 100%;
-}
-@media (max-width: 768px) {
-  .error {
-    width: 140%;
-  }
 }
 
 /* tarjetas camisetas */
@@ -264,7 +267,7 @@ h2 {
   position: relative;
   margin: 1rem;
   color: white;
-  background-color: rgb(220, 20, 60);
+  background-color: #dc143c;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -317,7 +320,7 @@ h2 {
 
 .form-label {
   font-size: 1.5rem;
-  color: rgb(220, 20, 60);
+  color: #dc143c;
   display: block;
   opacity: 1;
 }
@@ -336,22 +339,26 @@ h2 {
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: rgb(220, 20, 60);
+  border-color: #dc143c;
   outline: none;
 }
 
-.btn {
+.btn, .btn-cards {
   background: 0 0 #fff;
   border: 1px solid #aaa;
   border-radius: 3px;
-  color: rgb(220, 20, 60);
+  color: #dc143c;
   font-size: 1rem;
   padding: 10px 50px;
   text-transform: uppercase;
 }
-.btn:hover {
-  border-color: rgb(220, 20, 60);
-  color: rgb(220, 20, 60);
+.btn:hover, .btn-cards:hover {
+  border-color: #dc143c;
+  color: #dc143c;
+}
+
+.btn-cards:hover {
+  background-color: #c2c2c2;
 }
 
 textarea {

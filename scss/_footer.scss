@@ -19,7 +19,7 @@
     justify-content: center;
     text-decoration: none;
     font-size: $textXl;
-    color: $black;
+    color: map-get($map:$paleta,$key:'tres');
     border-radius: 50%;
     outline: 2px solid black;
     transition-property:

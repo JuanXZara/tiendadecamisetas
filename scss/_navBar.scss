@@ -24,7 +24,7 @@
 .nav__link{
     display: inline-block;
     text-decoration: none;
-    color: $black;
+    color: map-get($map:$paleta,$key:'tres');
     font-variant-caps: all-petite-caps;
     position: relative;
     &::after{
@@ -34,7 +34,7 @@
         bottom: 0;
         width: $w-100;
         height: 2px;
-        background-color:black;
+        background-color:map-get($map:$paleta,$key:'tres');
         transform: scaleX(0);
         transform-origin: right;
         transition: transform .5s;
@@ -48,7 +48,7 @@
 
 .searchbar {
     margin: 10px 5px;
-    background: $white;
+    background: map-get($map:$paleta,$key:'dos');
     height: 20px;
     border-radius: 30px;
     padding: 10px 20px;
@@ -73,7 +73,7 @@
       }
       lupa{
         fas{
-          color: $mainColor;
+          color: map-get($map:$paleta,$key:'uno');
         }
       }
   }

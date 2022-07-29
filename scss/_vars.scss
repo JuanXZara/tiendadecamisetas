@@ -1,15 +1,17 @@
 //Colors
-$bglight:white;
-$mainColor:rgba(220,20,60);
-$white:white;
-$black:black;
-$gray:#c2c2c2;
+$paleta: (
+     'uno': #dc143c,
+     'dos': white,
+     'tres': black,
+     'cuatro': #c2c2c2,
+     'cinco': #dfdfdf,
+     'seis': #791010,);
 
+     
 
 //sizing
 $w-100:100%;
 $w-50:50%;
-$carousel-indicator-height: 5px;
 
 
 

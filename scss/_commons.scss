@@ -5,7 +5,7 @@
 
 h1{
     font-family: $fontMain;
-    color: $mainColor;
+    color: map-get($map:$paleta,$key:'uno');
     font-size: $textMax;
     font-variant-caps: all-petite-caps;
     font-weight: $tBold;
@@ -30,8 +30,8 @@ h2{
 .headline{
     font-family: $fontMain;
     font-size: $textXl;
-    color: $white;
-    background-color: $black;
+    color: map-get($map:$paleta,$key:'dos');
+    background-color: map-get($map:$paleta,$key:'tres');
     font-weight: $tLite;
     font-variant-caps: all-petite-caps;
     text-align: center;
@@ -104,7 +104,7 @@ h2{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 1rem;
+    margin: 0rem;
 }
 
 #footer{
@@ -113,6 +113,11 @@ h2{
 }
 
 /* fin grid para index */
+
+.imgindex{
+    height: 100%;
+    margin: 0px;
+}
 
 /* grid para carrito */
 
@@ -164,17 +169,16 @@ h2{
     padding: 3%;
 }
 
-.carousel-inner{
-    @media (max-width: 768px){
-        width:170%
+.imgcarousel {
+    width: 100%;
+    @media (max-width: 480px){
+        height: 80px;
     }
 }
 
-.error{
-    display: flex;
-    flex-wrap: wrap;
+.error {
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    @media (max-width: 768px){
-        width:140%
-    }
 }
+

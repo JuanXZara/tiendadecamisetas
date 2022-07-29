@@ -9,8 +9,8 @@
   .card {
     position: relative;
     margin: 1rem;
-    color: $white;
-    background-color: $mainColor;
+    color: map-get($map:$paleta,$key:'dos');
+    background-color: map-get($map:$paleta,$key:'uno');
     border-radius: 8px;
     overflow: hidden;
   }
