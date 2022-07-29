@@ -203,7 +203,7 @@ h2 {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 60% 20% 20%;
-    grid-template-areas: "productos productos" "tarjeta tarjeta" "detalles total";
+    grid-template-areas: "productos productos" "tarjeta detalles" "tarjeta total";
   }
 }
 
@@ -223,7 +223,7 @@ h2 {
 
 #tarjeta {
   grid-area: tarjeta;
-  width: 50%;
+  width: 100%;
   padding: 3%;
 }
 
@@ -233,6 +233,23 @@ h2 {
   font-weight: 700;
   text-align: left;
   padding: 3%;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    width: 170%;
+  }
+}
+
+.error {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .error {
+    width: 140%;
+  }
 }
 
 /* tarjetas camisetas */

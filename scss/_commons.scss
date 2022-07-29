@@ -130,8 +130,8 @@ h2{
         grid-template-rows: 60% 20% 20%;
         grid-template-areas: 
         "productos productos"
-        "tarjeta tarjeta"
-        "detalles total"
+        "tarjeta detalles"
+        "tarjeta total"
         ;
     }
 }
@@ -152,7 +152,7 @@ h2{
 
 #tarjeta{
     grid-area: tarjeta;
-    width: $w-50;
+    width: $w-100;
     padding: 3%;
 }
 
@@ -164,3 +164,17 @@ h2{
     padding: 3%;
 }
 
+.carousel-inner{
+    @media (max-width: 768px){
+        width:170%
+    }
+}
+
+.error{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @media (max-width: 768px){
+        width:140%
+    }
+}
