@@ -4,11 +4,9 @@
 }
 
 h1{
-    font-family: $fontMain;
+    @include texto($fontMain,$textMax,$tBold);
     color: map-get($map:$paleta,$key:'uno');
-    font-size: $textMax;
     font-variant-caps: all-petite-caps;
-    font-weight: $tBold;
     text-align: center;
 }
 
@@ -28,11 +26,9 @@ h2{
 }
 
 .headline{
-    font-family: $fontMain;
-    font-size: $textXl;
+    @include texto($fontMain,$textXl,$tLite);
     color: map-get($map:$paleta,$key:'dos');
     background-color: map-get($map:$paleta,$key:'tres');
-    font-weight: $tLite;
     font-variant-caps: all-petite-caps;
     text-align: center;
     margin: 0px;
@@ -148,9 +144,8 @@ h2{
 }
 
 #detalles{
+    @include texto($fontMain,$textM,$tRegular);
     grid-area: detalles;
-    font-size: $textM;
-    font-weight: $tRegular;
     text-align: left;
     padding: 3%;
 }
@@ -163,8 +158,7 @@ h2{
 
 #total{
     grid-area: total;
-    font-size: $textL;
-    font-weight: $tBold;
+    @include texto($fontMain,$textL,$tBold);
     text-align: left;
     padding: 3%;
 }

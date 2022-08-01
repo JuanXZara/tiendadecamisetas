@@ -1,0 +1,32 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio:
+“Las mejores camisetas de fútbol del mercado, en un sola tienda y online. Con envío a domicilio a nivel mundial"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:
+"camisetas de fútbol, selecciones de fútbol, clubes de fútbol, venta online"
+Encabezado: para el encabezado del h1 utilicé el texto “Las Camisetas de Fútbol más buscadas”
+
+En el archivo selecciones.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+"Camisetas de fútbol de todas las selecciones rumbo a Qatar 2022"
+Encabezado: para el encabezado del h1 utilicé el texto “Camisetas de Selecciones”
+
+En el archivo clubes.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+"Si sos fanático de tu club, tu camiseta de fútbol está acá, lista para enviarla a tu domicilio con el nombre de tu jugador favorito"
+Encabezado: para el encabezado del h1 utilicé el texto “Camisetas de Clubes”
+
+En el archivo contacto.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+"Contactanos por cualquier duda o consulta, también tenés nuestras redes sociales para estar siempre atento a las últimas novedades"
+Encabezado: para el encabezado del h1 utilicé el texto “Preguntas frecuentes y Contacto”
+
+En el archivo carrito.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+"Llegamos al final de la compra, aceptamos todos los medios de pago en cuotas sin interés con todas las tarjetas"
+Encabezado: para el encabezado del h1 utilicé el texto “Carrito”
+
+En el archivo error404.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+"Estamos poniendo a punto la camiseta perfecta para vos"
+
+

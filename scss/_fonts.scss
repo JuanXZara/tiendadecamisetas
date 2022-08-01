@@ -20,3 +20,10 @@ html{
 .text_center¨{
     text-align: center;
 }
+
+
+@mixin texto($fontFamily, $fontSize, $fontWeight){
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}

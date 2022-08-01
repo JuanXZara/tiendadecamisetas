@@ -13,7 +13,9 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
+  font-weight: 500;
   font-variant-caps: all-petite-caps;
   justify-content: space-between;
 }
@@ -93,10 +95,10 @@ html {
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
-  color: #dc143c;
   font-size: 6rem;
-  font-variant-caps: all-petite-caps;
   font-weight: 700;
+  color: #dc143c;
+  font-variant-caps: all-petite-caps;
   text-align: center;
 }
 
@@ -118,9 +120,9 @@ h2 {
 .headline {
   font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
+  font-weight: 300;
   color: white;
   background-color: black;
-  font-weight: 300;
   font-variant-caps: all-petite-caps;
   text-align: center;
   margin: 0px;
@@ -219,9 +221,10 @@ h2 {
 }
 
 #detalles {
-  grid-area: detalles;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  grid-area: detalles;
   text-align: left;
   padding: 3%;
 }
@@ -234,6 +237,7 @@ h2 {
 
 #total {
   grid-area: total;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   text-align: left;
