@@ -72,3 +72,8 @@ textarea{
 .bgcontacto{
     background-color: map-get($map:$paleta,$key:'cuatro');
 }
+
+.talles{
+    color: map-get($map:$paleta,$key:'dos');
+    justify-content: center;
+}

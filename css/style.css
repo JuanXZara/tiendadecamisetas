@@ -373,6 +373,11 @@ textarea {
   background-color: #c2c2c2;
 }
 
+.talles {
+  color: white;
+  justify-content: center;
+}
+
 .footer_logo {
   display: flex;
   align-items: center;
