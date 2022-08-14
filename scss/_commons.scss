@@ -128,11 +128,12 @@ h2{
     @media (max-width: 768px){
         display: grid;
         grid-template-columns: 2;
-        grid-template-rows: 60% 20% 20%;
+        grid-template-rows: 50% 20% 15% 15%;
         grid-template-areas: 
         "productos productos"
-        "tarjeta detalles"
-        "tarjeta total"
+        "tarjeta tarjeta"
+        "detalles detalles"
+        "total total"
         ;
     }
 }
